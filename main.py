@@ -18,12 +18,4 @@ async def hello(ctx):
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
-
-@bot.command()
-async def repeat(ctx, times: int, content='repeating...'):
-    """Repeats a message multiple times."""
-    for i in range(times):
-        await ctx.send(content)
-
-
-bot.run("token_hero")
+bot.run("GİZLİ TOKEN BURAYA")
